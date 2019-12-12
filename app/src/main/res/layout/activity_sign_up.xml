@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:id="@+id/parentSignUp"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".SignUpActivity">
+<EditText
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/edtPhone"
+    android:textColorHint="@color/fbutton_color_asbestos"
+    android:hint="PhoneNumberSignUp"
+    android:inputType="phone"
+    android:textColor="#01b0a9"
+    />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:id="@+id/edtUsernameSignUp"
+        android:textColor="#01b0a9"
+        android:textColorHint="@color/fbutton_color_asbestos"
+        android:hint="Name"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/edtPasswordSignUp"
+        android:layout_marginTop="5dp"
+        android:textColor="#01b0a9"
+        android:textColorHint="@color/fbutton_color_asbestos"
+        android:hint="Password"
+        android:inputType="textPassword"
+        />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnSignUpSignIn"
+        android:textColor="@color/fbutton_color_asbestos"
+        android:textColorHint="@color/fbutton_color_asbestos"
+        android:text="Sign up"
+        android:layout_marginTop="20dp"
+        />
+</LinearLayout>
